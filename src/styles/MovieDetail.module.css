@@ -1,0 +1,13 @@
+.videosContainer{
+    margin: 1.5rem 2.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+

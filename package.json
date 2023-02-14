@@ -1,0 +1,24 @@
+{
+  "name": "disney-plus-clone",
+  "version": "1.0.0",
+  "description": "Disney Plus Clone Project",
+  "source": "index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-router-dom": "^6.8.1",
+    "styled-components": "^5.3.6"
+  }
+}

@@ -1,0 +1,45 @@
+.Caraousal_Container{
+    height: 60vh;
+    width: 90vw;
+    margin: 1rem 2.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Caraousal_Container > .Caraousal_content{
+    mix-blend-mode: difference;
+    margin: 1rem;
+    width: 60%;
+}
+
+.Caraousal_content > h1, h4, p{
+    margin: 1.6rem 0rem;
+}
+
+.Caraousal_content > h4{
+    color: var(--light-text-color);
+}
+
+.Caraousal_content > p{
+    line-height: 1.5rem;
+}
+
+.Caraousal_ImageDiv{
+    height: 100%;
+    width: 40%;
+
+}
+
+.Caraousal_ImageDiv > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
